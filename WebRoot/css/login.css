@@ -1,0 +1,78 @@
+@CHARSET "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+/*样式组件区*/
+.main {
+    height: 1000px;
+    width: 100%;
+
+}
+.content {
+    position: relative;
+    top: 100px;
+    height: 60%;
+    background-image: url(../images/login-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 80%;
+}
+.content img {
+    height: 470px;
+    width: 620px;
+}
+.login-con {
+    position: relative;
+    float: right;
+    right: 300px;
+    top: 20px;
+    width: 30%;
+    height: 400px;
+    background-color: aliceblue;
+}
+.login-con h2{
+    position: relative;
+    padding-bottom: 16px;
+    font-size: 18px;
+    color: #111;
+    font-weight: 400px;
+    top: 20px;
+    left: 20px;
+}
+.login-body {
+    position: relative;
+    left: 80px;
+    top: 50px;
+}
+.form_wrap dl {
+   clear: both;
+   padding: 8px 0;
+}
+.login-body input {
+   border: none;
+   width: 220px;
+   height: 28px;
+   line-height: 28px;
+   font-size: 14px;
+   background: #fff;
+   padding: 5px 5px 5px 13px;
+   display: inline-block;
+   vertical-align: middle;
+   font-weight: 400;
+}
+#nsbmit {
+    background: #ff9a14;
+    width: 220px;
+    height: 42px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    border: 0;
+    border-radius: 4px;
+    color: white;
+    clear: both;
+}
+#nsbmit:hover {
+    background: #faa73a;
+}

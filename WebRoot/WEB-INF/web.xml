@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0"
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>mainSenicServlet</servlet-name>
+    <servlet-class>servlet.mainSenicServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SenReServlet</servlet-name>
+    <servlet-class>servlet.SenReServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ZanServlet</servlet-name>
+    <servlet-class>servlet.ZanServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FaServlet</servlet-name>
+    <servlet-class>servlet.FaServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FeelServlet</servlet-name>
+    <servlet-class>servlet.FeelServlet</servlet-class>
+  </servlet>
+    <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SearchSenicByCityNameServlet</servlet-name>
+    <servlet-class>servlet.SearchSenicByCityNameServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SearchSenicByNameServlet</servlet-name>
+    <servlet-class>servlet.SearchSenicByNameServlet</servlet-class>
+  </servlet>
+
+  
+   <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetUserList</servlet-name>
+    <servlet-class>servlet.GetUserList</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetSenList</servlet-name>
+    <servlet-class>servlet.GetSenList</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetActivityList</servlet-name>
+    <servlet-class>servlet.GetActivityList</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdminLogin</servlet-name>
+    <servlet-class>servlet.AdminLogin</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserLogin</servlet-name>
+    <servlet-class>servlet.UserLogin</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserRegister</servlet-name>
+    <servlet-class>servlet.UserRegister</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteScene</servlet-name>
+    <servlet-class>servlet.DeleteScene</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeteleActivity</servlet-name>
+    <servlet-class>servlet.DeteleActivity</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ModifyAdminPwd</servlet-name>
+    <servlet-class>servlet.ModifyAdminPwd</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Logout</servlet-name>
+    <servlet-class>servlet.Logout</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpLoadImage</servlet-name>
+    <servlet-class>servlet.UpLoadImage</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetActivityRemarkList</servlet-name>
+    <servlet-class>servlet.GetActivityRemarkList</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetSceneRemarkList</servlet-name>
+    <servlet-class>servlet.GetSceneRemarkList</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetAdviceList</servlet-name>
+    <servlet-class>servlet.GetAdviceList</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteActivityRemark</servlet-name>
+    <servlet-class>servlet.DeleteActivityRemark</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteSceneRemark</servlet-name>
+    <servlet-class>servlet.DeleteSceneRemark</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteAdvice</servlet-name>
+    <servlet-class>servlet.DeleteAdvice</servlet-class>
+  </servlet>
+
+
+
+ <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>EditServlet</servlet-name>
+    <servlet-class>servlet.EditServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ApplyServlet</servlet-name>
+    <servlet-class>servlet.ApplyServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SonRemarkServlet</servlet-name>
+    <servlet-class>servlet.SonRemarkServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserServlet</servlet-name>
+    <servlet-class>servlet.UserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ActivityServlet</servlet-name>
+    <servlet-class>servlet.ActivityServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdviceServlet</servlet-name>
+    <servlet-class>servlet.AdviceServlet</servlet-class>
+  </servlet>
+
+
+<servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddActServlet</servlet-name>
+    <servlet-class>servlet.AddActServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetActServlet1</servlet-name>
+    <servlet-class>servlet.GetActServlet1</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetActServlet2</servlet-name>
+    <servlet-class>servlet.GetActServlet2</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetActServlet3</servlet-name>
+    <servlet-class>servlet.GetActServlet3</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DelActServlet</servlet-name>
+    <servlet-class>servlet.DelActServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateActServlet</servlet-name>
+    <servlet-class>servlet.UpdateActServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddActMsgServlet</servlet-name>
+    <servlet-class>servlet.AddActMsgServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetActMsgServlet</servlet-name>
+    <servlet-class>servlet.GetActMsgServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DelActMsgServlet</servlet-name>
+    <servlet-class>servlet.DelActMsgServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetActapServlet1</servlet-name>
+    <servlet-class>servlet.GetActapServlet1</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetActapServlet2</servlet-name>
+    <servlet-class>servlet.GetActapServlet2</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddActapServlet</servlet-name>
+    <servlet-class>servlet.AddActapServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateActapServlet</servlet-name>
+    <servlet-class>servlet.UpdateActapServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DelActapServlet</servlet-name>
+    <servlet-class>servlet.DelActapServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserLoginServlet</servlet-name>
+    <servlet-class>servlet.UserLoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetActServlet4</servlet-name>
+    <servlet-class>servlet.GetActServlet4</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginOutServlet</servlet-name>
+    <servlet-class>servlet.LoginOutServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ToShowServlet</servlet-name>
+    <servlet-class>servlet.ToShowServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SenZanServlet</servlet-name>
+    <servlet-class>servlet.SenZanServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>mainSenicServlet</servlet-name>
+    <url-pattern>/mainSenicServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SenReServlet</servlet-name>
+    <url-pattern>/senReServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ZanServlet</servlet-name>
+    <url-pattern>/zanServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FaServlet</servlet-name>
+    <url-pattern>/faServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FeelServlet</servlet-name>
+    <url-pattern>/feelServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SearchSenicByCityNameServlet</servlet-name>
+    <url-pattern>/searchSenicByCityNameServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SearchSenicByNameServlet</servlet-name>
+    <url-pattern>/searchSenicByNameServlet</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet-mapping>
+    <servlet-name>GetUserList</servlet-name>
+    <url-pattern>/getUserList</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetSenList</servlet-name>
+    <url-pattern>/getSenList</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetActivityList</servlet-name>
+    <url-pattern>/getActivityList</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminLogin</servlet-name>
+    <url-pattern>/adminLogin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserLogin</servlet-name>
+    <url-pattern>/userLogin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserRegister</servlet-name>
+    <url-pattern>/userRegister</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteScene</servlet-name>
+    <url-pattern>/deleteScene</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeteleActivity</servlet-name>
+    <url-pattern>/deteleActivity</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ModifyAdminPwd</servlet-name>
+    <url-pattern>/modifyAdminPwd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Logout</servlet-name>
+    <url-pattern>/logout</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpLoadImage</servlet-name>
+    <url-pattern>/upLoadImage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetActivityRemarkList</servlet-name>
+    <url-pattern>/getActivityRemarkList</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetSceneRemarkList</servlet-name>
+    <url-pattern>/getSceneRemarkList</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetAdviceList</servlet-name>
+    <url-pattern>/getAdviceList</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteActivityRemark</servlet-name>
+    <url-pattern>/deleteActivityRemark</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteSceneRemark</servlet-name>
+    <url-pattern>/deleteSceneRemark</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteAdvice</servlet-name>
+    <url-pattern>/deleteAdvice</url-pattern>
+  </servlet-mapping>
+  
+  
+   <servlet-mapping>
+    <servlet-name>EditServlet</servlet-name>
+    <url-pattern>/editServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ApplyServlet</servlet-name>
+    <url-pattern>/applyServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>SonRemarkServlet</servlet-name>
+    <url-pattern>/sonRemarkServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserServlet</servlet-name>
+    <url-pattern>/userServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ActivityServlet</servlet-name>
+    <url-pattern>/activityServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdviceServlet</servlet-name>
+    <url-pattern>/adviceServlet</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+   <servlet-mapping>
+    <servlet-name>AddActServlet</servlet-name>
+    <url-pattern>/addActServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetActServlet1</servlet-name>
+    <url-pattern>/getActServlet1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetActServlet2</servlet-name>
+    <url-pattern>/getActServlet2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetActServlet3</servlet-name>
+    <url-pattern>/getActServlet3</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DelActServlet</servlet-name>
+    <url-pattern>/delActServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateActServlet</servlet-name>
+    <url-pattern>/updateActServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddActMsgServlet</servlet-name>
+    <url-pattern>/addActMsgServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetActMsgServlet</servlet-name>
+    <url-pattern>/getActMsgServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DelActMsgServlet</servlet-name>
+    <url-pattern>/delActMsgServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetActapServlet1</servlet-name>
+    <url-pattern>/getActapServlet1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetActapServlet2</servlet-name>
+    <url-pattern>/getActapServlet2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddActapServlet</servlet-name>
+    <url-pattern>/addActapServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateActapServlet</servlet-name>
+    <url-pattern>/updateActapServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DelActapServlet</servlet-name>
+    <url-pattern>/delActapServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserLoginServlet</servlet-name>
+    <url-pattern>/userLoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetActServlet4</servlet-name>
+    <url-pattern>/getActServlet4</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginOutServlet</servlet-name>
+    <url-pattern>/loginOutServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ToShowServlet</servlet-name>
+    <url-pattern>/toShowServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SenZanServlet</servlet-name>
+    <url-pattern>/senZanServlet</url-pattern>
+  </servlet-mapping>
+
+</web-app>
